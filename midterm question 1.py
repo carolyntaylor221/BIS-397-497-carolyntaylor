@@ -6,19 +6,6 @@ Created on Sat Jun  6 15:34:12 2020
 @author: carolyntaylor
 """
 
-
-## dice can be rolleed up to three time in a turn
-# program one turn with three dice rolls
-# virtually roll five six sided dies
-## print results like 1 2 3 4 5
-## user input which dice they would like to roll again using -99 to indicate 
-#they are done
-## choose dice based on position (index)
-
-## re roll chossen dice
-# choose again
-# final dice displayed
-
 import random
 
 
@@ -35,11 +22,7 @@ def display_dice(dice):
     """Display one roll of five dice."""
     die1, die2, die3, die4, die5 = dice 
     print(die1, die2, die3, die4, die5)
-    
-die_values = roll_dice()
-display_dice(die_values)
 
-dielist = list(die_values)
 
 def roll_again(list):
     """select position of die to roll again, -99 to end"""
@@ -51,22 +34,16 @@ def roll_again(list):
 
 die_values = roll_dice()
 display_dice(die_values)
-
 dielist = list(die_values)
 
 x = int(input('Enter position of die to roll again: '))
 roll_again(dielist)
-        
-        
-roll_again(dielist)
 
-for i in range(2):
-    
-
-roll_again()
+##I ran out of time before I was able to finish coding a re roll. Once that 
+# is coded i was going to use a for statement to run the reroll 
+# twice. Every time you reroll you would update the dielist. Then when all 
+# reroll are over you print the final dice. 
         
-    indexpositions = int
-    input(dielist.index
     
 
     

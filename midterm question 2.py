@@ -7,27 +7,19 @@ Created on Sat Jun  6 15:34:32 2020
 """
 
 
-#Write me a script that creates a function called descriptive, 
-#which, when passed a list of numbers, will return the mean, median,
-# sample standard deviation, and population standard deviation, along
-# with appropriate titles. For example:
+import statistics
 
-#Mean is: 45.5666
-
-#Median is: 23.4589
-
-#...and so forth
-
-#Put your function in a script and also have the script 
-#call the function on a set of 10 random numbers to show me that it works.
-
-def descriptive():
-    """find mean, median, sample standard deviation, and population standard deviation
-    
+def descriptive(list):
+    """find mean, median, sample and population standard deviation"""
+    return print('mean is:',statistics.mean(list), 'median is:',
+                 statistics.median(list), 'sample standard deviation is:',
+                 statistics.stdev(list), 'population standard deviation is:',
+                 statistics.pstdev(list))
 
 list1 = []
+
 for i in range(10):
     i = random.randrange(0,10) 
     list1.append(i)
     
-list1
+descriptive(list1)
