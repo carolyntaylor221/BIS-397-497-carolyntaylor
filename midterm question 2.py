@@ -5,8 +5,11 @@ Created on Sat Jun  6 15:34:32 2020
 
 @author: carolyntaylor
 """
+# Score: 23/25
+# Forgot to import random
 
 
+import random # Added by TAA
 import statistics
 
 def descriptive(list):
