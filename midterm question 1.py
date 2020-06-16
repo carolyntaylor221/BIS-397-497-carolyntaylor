@@ -6,6 +6,11 @@ Created on Sat Jun  6 15:34:12 2020
 @author: carolyntaylor
 """
 
+# Grade: 20/25
+    
+# Comments: 
+# 1. Think it would have worked fine if you had had time
+
 import random
 
 
